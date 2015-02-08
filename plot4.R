@@ -13,7 +13,7 @@ png(filename="plot4.png", width = 480, height = 480)
 par(mfrow=c(2,2))
 par(mar=c(4,4,2,2))
 # 1st Chart
-plot(df3$dateTime,df3$Global_active_power, type="l", xlab="",ylab="Global Active Power (kilowatts)")
+plot(df3$dateTime,df3$Global_active_power, type="l", xlab="",ylab="Global Active Power")
 # 2nd Chart
 plot(df3$dateTime,df3$Voltage, type="l", xlab="datetime",ylab="Voltage")
 # 3rd Chart
